@@ -161,7 +161,7 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 django_heroku.settings(locals())
-AUTH_USER_MODEL = 'tasks_api.User'
+# AUTH_USER_MODEL = 'tasks_api.User'
 
 
 REST_FRAMEWORK = {
